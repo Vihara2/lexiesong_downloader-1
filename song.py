@@ -101,7 +101,7 @@ async def song(client, message):
     time.time()
     if song:
         await rkp.edit("Uploading...") 
-        lol = "./GhostParadise.png"
+        lol = "./GhostParadise.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
                  duration=int(rip_data["duration"]),
@@ -186,7 +186,7 @@ async def song(client, message):
     time.time()
     if song:
         await rkp.edit("Uploading...") 
-        lol = "./GhostParadise.png"
+        lol = "./GhostParadise.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
                  duration=int(rip_data["duration"]),
