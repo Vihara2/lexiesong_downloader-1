@@ -201,7 +201,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await botz.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot. A bot by @ghostparadise.
+               text="""<b>hey...I'm helping you to play your loved and favourite songs in any place you need.Do you want to know more about me hit the @ghostparadise.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
