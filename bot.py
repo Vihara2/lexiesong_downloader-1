@@ -207,6 +207,7 @@ Hit help button to find out more about how to use me</b>""",
                                 [[
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
+                                ],[
                                         InlineKeyboardButton(
                                             "Group", url="https://t.me/ghostparadise")
                                     ]]
