@@ -204,13 +204,10 @@ async def start(client, message):
                text="""<b>hey...I'm helping you to play your loved and favourite songs in any place you need.Do you want to know more about me hit the @ghostparadise.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
-                                [[
+                                [
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
-                                ],[
-                                        InlineKeyboardButton(
-                                            "Group", url="https://t.me/ghostparadise")
-                                    ]]
+                                ]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html",
